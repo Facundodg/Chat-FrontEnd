@@ -3,6 +3,18 @@ body {
     background-color: #eee;
 }
 
+.container-fluid{
+
+    height: 250px;
+
+}
+
+nav{
+
+    background-color: #81a0b1;
+
+}
+
 /*================================
     Filter Box Style
     ====================================*/
@@ -225,7 +237,7 @@ a:hover {
 
 .message-body-heading-DIM h5 {
     font-weight: 600;
-    margin-right: 600px;
+    margin-right: 300px;
     /*display:inline-block;*/
     display: block;
     float: right;
@@ -276,12 +288,11 @@ a:hover {
 
 /*------------FIN PRUEBAS-------------*/
 
-
-@media (min-width:988px) {
+@media (min-width:500px) {
 
     .inbox-message .message-avatar-DIM {
         position: absolute;
-        left: 91%;
+        left: 83%;
 
     }
 
@@ -290,7 +301,18 @@ a:hover {
 }
 
 
-@media (min-width:1239px) {
+@media (min-width:768px) {
+
+    .inbox-message .message-avatar-DIM {
+        position: absolute;
+        left: 88%;
+
+    }
+
+
+}
+
+@media (min-width:1000px) {
 
     .inbox-message .message-avatar-DIM {
         position: absolute;
@@ -298,6 +320,5 @@ a:hover {
 
     }
 
-
-
 }
+
