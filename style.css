@@ -3,6 +3,12 @@ body {
     background-color: #eee;
 }
 
+.fixedElement{
+    position:fixed !important;
+    top:95.8%;
+    z-index:100;
+}
+
 .container-fluid{
 
     height: 250px;
