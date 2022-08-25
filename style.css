@@ -3,8 +3,14 @@ body {
     background-color: #eee;
 }
 
+.fixedElement .input-group .input-group-prepend a{
+
+    background-color: whitesmoke;
+
+}
+
 .fixedElement{
-    position:fixed !important;
+    position:fixed;
     top:95.8%;
     z-index:100;
 }
@@ -301,8 +307,6 @@ a:hover {
         left: 83%;
 
     }
-
-
 
 }
 

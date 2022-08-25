@@ -1,0 +1,104 @@
+$(window).scroll(function(e){ 
+  var $el = $('.fixedElement'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+    $el.css({'position': 'fixed', 'top': '0px'}); 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'}); 
+  } 
+});
+
+
+-----------------------------------------------------------
+
+                                <!--<li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="unread">Unread</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="unread">Unread</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="pending">Pending Work</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="unread">Unread</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="business">Business</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-avatar">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                <h5>Daniel Dock <span class="important">Important</span></h5>
+                                                <span>7 hours ago</span>
+                                            </div>
+                                            <p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolor....</p>
+                                        </div>
+                                    </a>
+                                </li>-->
