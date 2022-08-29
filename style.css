@@ -3,6 +3,15 @@ body {
     background-color: #eee;
 }
 
+.titulo{
+
+    display: flex !important;
+    text-align: center !important;
+    width: 100% !important;
+    color: #07b107 !important;
+   
+}
+
 .fixedElement .input-group .input-group-prepend a{
 
     background-color: whitesmoke;
